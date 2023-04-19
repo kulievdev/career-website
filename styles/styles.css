@@ -149,3 +149,101 @@
     width: 100%;
     height: 100%;
 }
+
+/* Service Section */
+
+.service-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px;
+
+    background-color: #fafbfc;
+}
+
+.service-section__top {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.service-section__top h1 {
+    color: #323b4b;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.service-section__top p {
+    color: #8a94a6;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 75px;
+}
+
+.service-section__4rectangles {
+    display: flex;
+    margin-top: 81px;
+    gap: 32px;
+    margin-bottom: 62px;
+}
+
+.service-section__left {
+    width: 50%;
+}
+
+.service-section__right {
+    width: 50%;
+}
+
+.full-social-package {
+    background-color: #ffffff;
+    box-shadow: 0px 50px 77px rgba(176, 183, 195, 0.22);
+    border-radius: 15px;
+    margin-bottom: 37px;
+}
+
+.free-meals {
+    background-color: #ffffff;
+    box-shadow: 0px 50px 77px rgba(176, 183, 195, 0.22);
+    border-radius: 15px;
+}
+
+.equipped-workplace {
+    background-color: #ffffff;
+    box-shadow: 0px 50px 77px rgba(176, 183, 195, 0.22);
+    border-radius: 15px;
+    margin-bottom: 37px;
+}
+
+.game-room {
+    background-color: #ffffff;
+    box-shadow: 0px 50px 77px rgba(176, 183, 195, 0.22);
+    border-radius: 15px;
+}
+
+.service-section__4rectangles img {
+    padding-left: 31px;
+    padding-top: 32px;
+    margin-bottom: 30px;
+}
+
+.service-section__4rectangles h2 {
+    color: #323b4b;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 21px;
+    padding-left: 31px;
+}
+
+.service-section__4rectangles p {
+    color: #8a94a6;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 31px;
+    padding-bottom: 21px;
+}
