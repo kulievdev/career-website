@@ -247,3 +247,42 @@
     padding-left: 31px;
     padding-bottom: 21px;
 }
+
+/* Find your job section */
+
+.findyourjob-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.findyourjob-section__left {
+    max-width: 50%;
+}
+
+.findyourjob-section__left img {
+    width: 100%;
+    height: auto;
+}
+
+.findyourjob-section__right {
+    max-width: 50%;
+    margin-left: 90px;
+}
+
+.findyourjob-section__right h1 {
+    color: #323b4b;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    margin-bottom: 31px;
+}
+
+.findyourjob-section__right p {
+    color: #8a94a6;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+}
