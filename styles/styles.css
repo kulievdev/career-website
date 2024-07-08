@@ -181,11 +181,11 @@
 /* Find your job section */
 
 .findyourjob-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 80px;
+    padding: 135px 100px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 130px;
 }
 
 .findyourjob-section__left {
@@ -193,13 +193,11 @@
 }
 
 .findyourjob-section__left img {
-    width: 100%;
-    height: auto;
+    border-radius: 20px;
 }
 
 .findyourjob-section__right {
     max-width: 50%;
-    margin-left: 90px;
 }
 
 .findyourjob-section__right h1 {
