@@ -310,25 +310,19 @@
 /* Footer Section */
 
 .footer-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 80px;
+    padding: 130px 100px;
 }
 
 .footer-section__top {
     display: flex;
-    margin-bottom: 70px;
-    padding-top: 50px;
-
-    display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 .footer-section__info {
     display: flex;
-    gap: 85px;
-    margin-left: 250px;
-    margin-top: 25px;
+    gap: 140px;
 }
 
 .footer-section__left p {
@@ -336,11 +330,8 @@
     font-size: 20px;
     line-height: 35px;
     color: #8a94a6;
+    margin-top: 27px;
     margin-bottom: 27px;
-}
-
-.footer-section__left img {
-    margin-bottom: 32px;
 }
 
 .footer-section__info p {
