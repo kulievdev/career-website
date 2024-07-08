@@ -5,6 +5,18 @@
     margin: 0 auto;
 }
 
+@media (min-width: 1600px) {
+    .layout {
+        max-width: 1560px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .layout {
+        max-width: 1920px;
+    }
+}
+
 .header_wrapper {
     padding: 40px 100px;
     display: flex;
