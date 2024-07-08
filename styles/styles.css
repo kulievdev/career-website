@@ -1,33 +1,14 @@
 /* Header */
 
-.header {
-    height: 133px;
-    justify-content: flex-end;
-}
-
-.navigation {
+.layout {
     max-width: 1440px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    align-items: center;
-    padding-right: 80px;
-    padding-left: 80px;
 }
 
-.navigation__links {
+.header_wrapper {
+    background-color: yellow;
+    padding: 40px 100px;
     display: flex;
-    align-items: center;
-    gap: 50px;
-    margin-left: 412.5px;
-}
-
-.navigation__links li a {
-    color: #8a94a6;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 600;
 }
 
 .logo {
@@ -35,10 +16,26 @@
     margin-right: auto;
 }
 
-.navigation__actions {
+.navigation {
+    display: flex;
+}
+
+.navigation__links {
     display: flex;
     align-items: center;
-    margin-left: 61.5px;
+    gap: 22px;
+}
+
+.navigation__links li {
+    display: flex;
+    gap: 16px;
+}
+
+.navigation__links li a {
+    color: #8a94a6;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
 }
 
 .get-started__button {
@@ -49,6 +46,7 @@
     height: 57px;
     color: #ffffff;
     font-size: 20px;
+    margin-left: 26px;
     cursor: pointer;
 }
 
