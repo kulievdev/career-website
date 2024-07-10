@@ -228,11 +228,13 @@
     align-items: center;
 }
 
-.freevacancy-section__top {
+.freevacancy-section__top,
+.message-section__top {
     text-align: center;
 }
 
-.freevacancy-section__top h1 {
+.freevacancy-section__top h1,
+.message-section__top h1 {
     color: #323b4b;
     font-weight: 700;
     font-size: 60px;
@@ -240,7 +242,8 @@
     margin-bottom: 35px;
 }
 
-.freevacancy-section__top p {
+.freevacancy-section__top p,
+.message-section__top p {
     color: #8a94a6;
     font-weight: 500;
     font-size: 20px;
@@ -305,6 +308,74 @@
     font-weight: 600;
     line-height: 24px;
     cursor: pointer;
+}
+
+/* Message Section */
+
+.message-section__cotainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 280px;
+}
+
+.message-section__middle {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.message_inputs {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    margin-bottom: 44px;
+}
+
+.message_inputs input,
+.message-section__middle textarea {
+    width: 100%;
+    padding: 22px 0 22px 26px;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 10px;
+    border: 2px solid #e1e3e6;
+}
+
+.message_inputs input::placeholder,
+.message-section__middle textarea::placeholder {
+    color: #b0b7c3;
+}
+
+.message-section__bottom {
+    display: flex;
+    gap: 40px;
+}
+
+.checkbox_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.checkbox_wrapper input {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox_wrapper label {
+    color: #8a94a6;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.message-section__bottom button {
+    padding: 22px 110px;
+    font-size: 20px;
+    line-height: 24px;
+    border: none;
+    color: #fff;
+    background-color: #377dff;
+    border-radius: 10px;
 }
 
 /* Footer Section */
