@@ -126,24 +126,7 @@
 }
 
 .service-section__top {
-    text-align: center;
     margin-bottom: 80px;
-}
-
-.service-section__top h1 {
-    color: #323b4b;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 35px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.service-section__top p {
-    color: #8a94a6;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 35px;
 }
 
 .service-section__4rectangles {
@@ -228,13 +211,17 @@
     align-items: center;
 }
 
+.service-section__top,
 .freevacancy-section__top,
-.message-section__top {
+.message-section__top,
+.contact-section__top {
     text-align: center;
 }
 
+.service-section__top h1,
 .freevacancy-section__top h1,
-.message-section__top h1 {
+.message-section__top h1,
+.contact-section__top h1 {
     color: #323b4b;
     font-weight: 700;
     font-size: 60px;
@@ -242,8 +229,10 @@
     margin-bottom: 35px;
 }
 
+.service-section__top p,
 .freevacancy-section__top p,
-.message-section__top p {
+.message-section__top p,
+.contact-section__top p {
     color: #8a94a6;
     font-weight: 500;
     font-size: 20px;
@@ -376,6 +365,12 @@
     color: #fff;
     background-color: #377dff;
     border-radius: 10px;
+}
+
+/* Contact Section */
+
+#contact-section {
+    background-color: #fafbfc;
 }
 
 /* Footer Section */
