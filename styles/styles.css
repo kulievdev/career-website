@@ -25,6 +25,7 @@
 .logo {
     height: 54px;
     margin-right: auto;
+    cursor: pointer;
 }
 
 .navigation {
@@ -40,6 +41,7 @@
 .navigation__links li {
     display: flex;
     gap: 16px;
+    cursor: pointer;
 }
 
 .navigation__links li a {
@@ -93,6 +95,8 @@
     align-items: center;
     gap: 16px;
     margin-top: 35px;
+    cursor: pointer;
+    width: max-content;
 }
 
 .opening_text {
@@ -310,6 +314,7 @@
     color: #fff;
     background-color: #377dff;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 /* Contact Section */
@@ -346,6 +351,10 @@
     gap: 140px;
 }
 
+.footer-section__left img {
+    cursor: pointer;
+}
+
 .footer-section__left p {
     font-weight: 500;
     font-size: 20px;
@@ -355,7 +364,12 @@
     margin-bottom: 27px;
 }
 
-.footer-section__info p {
+.footer_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_links a {
     font-weight: 500;
     font-size: 20px;
     line-height: 45px;
