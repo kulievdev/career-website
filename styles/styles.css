@@ -211,35 +211,6 @@
     align-items: center;
 }
 
-.service-section__top,
-.freevacancy-section__top,
-.message-section__top,
-.contact-section__top {
-    text-align: center;
-}
-
-.service-section__top h1,
-.freevacancy-section__top h1,
-.message-section__top h1,
-.contact-section__top h1 {
-    color: #323b4b;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 73px;
-    margin-bottom: 35px;
-}
-
-.service-section__top p,
-.freevacancy-section__top p,
-.message-section__top p,
-.contact-section__top p {
-    color: #8a94a6;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 35px;
-    margin-bottom: 90px;
-}
-
 .freevacancy-section__middle {
     width: 100%;
     margin-bottom: 55px;
