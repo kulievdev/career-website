@@ -253,20 +253,21 @@
     padding-bottom: 135px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 130px;
+    gap: 70px;
 }
 
 .findyourjob-section__left {
-    max-width: 50%;
-}
-
-.findyourjob-section__left img {
-    border-radius: 20px;
+    width: 50%;
 }
 
 .findyourjob-section__right {
-    max-width: 50%;
+    width: 50%;
+}
+
+.findyourjob-section__left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
 
 .findyourjob-section__right h1 {
@@ -282,6 +283,47 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 35px;
+}
+
+@media (max-width: 1325px) {
+    .findyourjob-section__right h1 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .findyourjob-section__right p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .findyourjob-section__container {
+        flex-direction: column;
+    }
+    .findyourjob-section__right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .findyourjob-section__left {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .findyourjob-section__right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        text-align: start;
+    }
+
+    .findyourjob-section__right h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
 }
 
 /* Free Vacancy Section */

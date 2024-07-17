@@ -83,6 +83,9 @@ html {
 }
 
 @media (max-width: 425px) {
+    .text-center {
+        text-align: start;
+    }
     .text-center h1 {
         font-size: 36px;
         line-height: 50px;
