@@ -3,6 +3,8 @@
 .layout {
     max-width: 1440px;
     margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 @media (min-width: 1600px) {
@@ -11,8 +13,23 @@
     }
 }
 
+@media (max-width: 800px) {
+    .layout {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media (max-width: 550px) {
+    .layout {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 .header_wrapper {
-    padding: 40px 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     align-items: center;
 }
@@ -71,18 +88,18 @@
 
 @media (max-width: 1325px) {
     .logo {
-        height: 45px;
+        height: 40px;
     }
     .navigation__links li a {
-        font-size: 18px;
+        font-size: 16px;
     }
     .get-started__button {
-        padding: 14px 26px;
-        font-size: 18px;
+        padding: 12px 24px;
+        font-size: 16px;
     }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1023px) {
     .navigation {
         display: none;
     }
@@ -97,8 +114,8 @@
 /* Hero Section */
 
 .hero-section__container {
-    padding: 124px 100px;
-
+    padding-top: 124px;
+    padding-bottom: 124px;
     display: flex;
     align-items: center;
 }
@@ -151,6 +168,54 @@
     height: 100%;
 }
 
+@media (max-width: 1325px) {
+    .hero-section__left h1 {
+        font-size: 42px;
+    }
+    .hero-section__left :nth-child(2) {
+        font-size: 16px;
+    }
+    .opening_text {
+        font-size: 16px;
+    }
+    .opening_text_wrapper img {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .hero-section__container {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .hero-section__left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-section__right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .hero-section__left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        text-align: start;
+    }
+
+    .hero-section__left h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+}
+
 /* Service Section */
 
 #service-section {
@@ -158,7 +223,8 @@
 }
 
 .service-section__container {
-    padding: 100px 110px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .service-section__top {
@@ -174,7 +240,8 @@
 /* Find your job section */
 
 .findyourjob-section__container {
-    padding: 135px 100px;
+    padding-top: 135px;
+    padding-bottom: 135px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -215,7 +282,9 @@
 }
 
 .freevacancy-section__container {
-    padding: 110px 280px;
+    /* padding: 110px 280px; */
+    padding-top: 110px;
+    padding-bottom: 110px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -283,10 +352,12 @@
 /* Message Section */
 
 .message-section__cotainer {
+    /* padding: 110px 280px; */
+    padding-top: 110px;
+    padding-bottom: 110px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 110px 280px;
 }
 
 .message-section__middle {
@@ -356,7 +427,8 @@
 }
 
 .contact-section__container {
-    padding: 100px 110px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .contact-section__3rectangles {
@@ -368,7 +440,8 @@
 /* Footer Section */
 
 .footer-section__container {
-    padding: 130px 100px;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .footer-section__top {
