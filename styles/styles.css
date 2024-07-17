@@ -118,6 +118,7 @@
     padding-bottom: 124px;
     display: flex;
     align-items: center;
+    gap: 50px;
 }
 
 .hero-section__left {
@@ -171,6 +172,7 @@
 @media (max-width: 1325px) {
     .hero-section__left h1 {
         font-size: 42px;
+        line-height: 60px;
     }
     .hero-section__left :nth-child(2) {
         font-size: 16px;
@@ -187,7 +189,6 @@
 @media (max-width: 1023px) {
     .hero-section__container {
         flex-direction: column-reverse;
-        gap: 50px;
     }
     .hero-section__left {
         width: 100%;
