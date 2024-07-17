@@ -65,3 +65,26 @@ html {
     font-size: 18px;
     line-height: 30px;
 }
+
+@media (max-width: 1325px) {
+    .text-center h1 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .text-center p {
+        font-size: 16px;
+    }
+    .service-section__rectangles h2 {
+        font-size: 24px;
+    }
+    .service-section__rectangles p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    .text-center h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+}

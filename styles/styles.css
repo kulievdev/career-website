@@ -238,6 +238,14 @@
     gap: 32px;
 }
 
+@media (max-width: 900px) {
+    .service-section__4rectangles {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
 /* Find your job section */
 
 .findyourjob-section__container {
