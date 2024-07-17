@@ -56,6 +56,19 @@
     cursor: pointer;
 }
 
+@media (max-width: 1325px) {
+    .logo {
+        height: 45px;
+    }
+    .navigation__links li a {
+        font-size: 18px;
+    }
+    .get-started__button {
+        padding: 14px 26px;
+        font-size: 18px;
+    }
+}
+
 /* Hero Section */
 
 .hero-section__container {
