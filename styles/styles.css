@@ -144,9 +144,8 @@
     display: flex;
     align-items: center;
     gap: 16px;
-    margin-top: 35px;
     cursor: pointer;
-    width: max-content;
+    margin-top: 35px;
 }
 
 .opening_text {
@@ -557,9 +556,20 @@
 }
 
 .contact-section__3rectangles {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 32px;
+}
+
+@media (max-width: 1023px) {
+    .contact-section__3rectangles {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
+@media (max-width: 425px) {
 }
 
 /* Footer Section */
